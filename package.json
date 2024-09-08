@@ -1,5 +1,5 @@
 {
-  "name": "parquet-poc",
+  "name": "csv-parquet",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
