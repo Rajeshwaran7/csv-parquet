@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es2021",
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "removeComments": true,
+      "strictNullChecks": true,
+      "resolveJsonModule": true,
+      "strictFunctionTypes": true,
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+          "*": [
+              "node_modules/*"
+          ]
+      },
+      "typeRoots": [
+          "@types",
+          "node_modules/@types/",
+          "src/declarations/"
+      ]
+  },
+  "files": [
+      "src/declarations/global.d.ts"
+  ],
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "dist"
+  ]
+}
